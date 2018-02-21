@@ -1,21 +1,29 @@
 // Business (or back-end) logic:
-asdfjkl;asldkfj
+
 
 // User interface UI (or front-end) logic:
 
 $(document).ready(function() {
+
   $("form#quiz").submit(function(event) {
-    var question1 = parseInt($("#question1").val());
-    var question2 = parseInt($("#question2").val());
-    var question3 = parseInt($("#question3").val());
-    var question4 = parseInt($("#question4").val());
-    var question5 = parseInt($("#question5").val());
-    var nameInput = $("input#name").val();
+      var seasons = $("#seasons").val();
 
-    $("#name").text(nameInput);
+      // var question1 = ($("#question1").val());
+      // var question2 = ($("#question2").val());
+      // var question3 = ($("#question3").val());
+      // var question4 = ($("#question4").val());
+      // var question5 = ($("#question5").val());
+      var nameInput = $("input#firstname").val();
 
-    if (question1 === 1 &&)
+      $("#name").text(nameInput);
 
-    event.preventDefault();
-  });
-});
+      // if (seasons === 1) {
+      //   $("#capetown").show();
+
+
+      // } else if (seasons === 2) {
+      //   $("#borabora").show();
+
+      event.preventDefault();
+  })
+})
