@@ -9,16 +9,15 @@ $(document).ready(function() {
     event.preventDefault();
 
     var nameInput = $("input#name").val();
+    var seasons = $("#seasons").val();
 
     $(".name").text(nameInput);
-    // if
+    // if (seasons === )
     $("#capetown").show();
 
   });
 });
-    // var seasons = $("#seasons").val();
-    // var nameInput = $("input#name").val();
-    // $("#name").text(nameInput);
+
 
     // if (seasons === 1) {
     //   $("#capetown").show();
