@@ -5,13 +5,23 @@
 
 $(document).ready(function() {
 
-  $("form#quiz").submit(function(event) {
+  $("#quiz form").submit(function(event) {
     event.preventDefault();
-    var seasons = $("#seasons").val();
+
     var nameInput = $("input#name").val();
 
-    if (seasons === 1) {
-      $("#capetown").show();
+    $(".name").text(nameInput);
+    if
+    $("#capetown").show();
+
+  });
+});
+    // var seasons = $("#seasons").val();
+    // var nameInput = $("input#name").val();
+    // $("#name").text(nameInput);
+
+    // if (seasons === 1) {
+    //   $("#capetown").show();
 
       // var question1 = ($("#question1").val());
       // var question2 = ($("#question2").val());
@@ -24,6 +34,6 @@ $(document).ready(function() {
       // } else if (seasons === 2) {
       //   $("#borabora").show();
 
-    }
-  })
-})
+//     }
+//   })
+// })

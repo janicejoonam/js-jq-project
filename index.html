@@ -12,20 +12,27 @@
     <h1>Vacation Getaway Quiz</h1>
     <p>Find out where you should go for your next trip by answering the following questions below!</p>
 
-    <form id="quiz">
-      <h2>Question 1</h2>
+    <div id="quiz">
+      <form>
+      <div class="form-group">
+        <label for="name">Enter your first name</label>
+        <input id="name" class="form-control" type="text" />
+      </div>
+      <button type="submit" class="btn">Then, click <strong>here</strong> to find out where your next vacation getaway spot is!</button>
+    </form>
+  </div>
+      <!-- <h2>Question 1</h2>
       <hr />
       <p id="question1">Which season best suits your weather preference during vacation?</p>
-        <img src="img/spring.jpeg">
-        <img src="img/summer.jpeg">
-        <img src="img/fall.jpeg">
-        <img src="img/winter.jpeg">
+        <img src="img/spring.jpeg"><img src="img/summer.jpeg">
+        <img src="img/fall.jpeg"><img src="img/winter.jpeg">
           <select class="form-control" id="seasons">
             <option value="1">(A) Spring</option>
             <option value="2">(B) Summer</option>
             <option value="3">(C) Fall</option>
             <option value="4">(D) Winter</option>
           </select>
+          <button type="submit" name="submit" value="submit">Enter </button> -->
 
 
 
@@ -81,35 +88,26 @@
                   <button id="btn3" value="3">(C) Kind of important<span id="answer3"></span></button>
                   <button id="btn4" value="4">(D) Not important at all<span id="answer4"></span></button>
                 </div> -->
-                <div class="form-group">
-                  <label for="name">Enter your first name</label>
-                  <input id="name" class="form-control" type="text" />
-                <button type="submit" class="btn">Then, click here to find out where your next vacation getaway spot is!</button>
-                </div>
               </form>
 
                 <div id="capetown">
-                  <h7><span class="name">, </span>time for you to pack your bags to Cape Town!</h7>
-                  <p>Cape Town, South Africa!</p>
-                  <img src="img/capetown.jpg" />
+                  <h7><span class="name"></span>, time for you to pack your bags to Cape Town, South Africa!</h7>
+                  <img src="img/capetown.jpg" class="capetown">
                 </div>
 
                 <div id="borabora">
-                  <h8><span class="name">, </span>time for you to pack your bags to Bora Bora!</h8>
-                  <p>Bora Bora, French Polynesia</p>
-                  <img src="img/borabora.jpeg" />
+                  <h8><span class="name"></span>, time for you to pack your bags to Bora Bora, French Polynesia!</h8>
+                  <img src="img/borabora.jpeg" class="borabora">
                 </div>
 
                 <div id="montreal">
-                  <h9><span class="name">, </span>time for you to pack your bags to Montreal, Canada!</h9>
-                  <p>Montreal, Canada</p>
-                  <img src="img/montreal.jpg">
+                  <h9><span class="name"></span>, time for you to pack your bags to Montreal, Canada!</h9>
+                  <img src="img/montreal.jpg" class="montreal">
                 </div>
 
                 <div id="erfurt">
-                  <h10><span class="name">, </span>time for you to pack your bags to Erfurt, Germany!</h10>
-                  <p>Munich, Germany</p>
-                  <img src="img/erfurt.jpg" />
+                  <h10><span class="name"></span>, time for you to pack your bags to Erfurt, Germany!</h10><hr>
+                  <img src="img/erfurt.jpg" class="erfurt">
                 </div>
 
                 </div>
