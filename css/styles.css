@@ -10,6 +10,15 @@ body {
   font-size: 2vw;
 }
 
+h1 {
+  background-color: transparent;
+  text-align: center;
+  color: #fff;
+  padding: 2px 0px;
+  border-radius: 100px;
+  font-size: 8vw;
+}
+
 h2, h3, h4, h5, h6 {
   text-align: left;
   font-size: 30px;
@@ -50,14 +59,6 @@ span {
   padding: 20px 50px 50px 60px;
 }
 
-.container h1 {
-  background-color: transparent;
-  text-align: center;
-  color: #fff;
-  padding: 2px 0px;
-  border-radius: 100px;
-  font-size: 9vw;
-}
 
 .container #question1, #question2, #question3, #question4, #question5 {
   font-size: 30px;

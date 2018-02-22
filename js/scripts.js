@@ -11,7 +11,7 @@ $(document).ready(function() {
     var nameInput = $("input#name").val();
 
     $(".name").text(nameInput);
-    if
+    // if
     $("#capetown").show();
 
   });
