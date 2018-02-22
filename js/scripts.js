@@ -6,6 +6,7 @@
 $(document).ready(function() {
 
   $("form#quiz").submit(function(event) {
+    event.preventDefault();
       var seasons = $("#seasons").val();
 
       // var question1 = ($("#question1").val());
@@ -17,13 +18,14 @@ $(document).ready(function() {
 
       $("#name").text(nameInput);
 
-      // if (seasons === 1) {
-      //   $("#capetown").show();
+      if (#seasons === 1) {
+        $("#capetown").show();
 
 
       // } else if (seasons === 2) {
       //   $("#borabora").show();
 
-      event.preventDefault();
-  })
-})
+
+    }
+  });
+});
