@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
   <title>Vacation</title>
@@ -12,99 +12,82 @@
     <h1>Vacation Getaway Quiz</h1>
     <p>Find out where you should go for your next trip by answering the following questions below!</p>
 
-    <div id="quiz">
-      <form>
-        <div id="seasons">
-      <h2>Question 1</h2>
-      <hr />
-      <p id="question1">Which season best suits your weather preference during vacation?</p>
-        <img src="img/spring.jpeg"><img src="img/summer.jpeg">
-        <img src="img/fall.jpeg"><img src="img/winter.jpeg">
-          <select class="form-control" id="seasons">
-            <option value="spring">(A) Spring</option>
-            <option value="summer">(B) Summer</option>
-            <option value="fall">(C) Fall</option>
-            <option value="winter">(D) Winter</option>
-          </select>
-</div>
-
-
-          <!-- <div id="seasons" class="col-lrg-6" >
-            <button id="btn1" value="spring">(A) Spring</button>
-            <button id="btn2" value="summer">(B) Summer</button>
-
-            <option value="1">(A) Spring</option>
-            <option value="2">(B) Summer</option>
-            <option value="3">(C) Fall</option>
-            <option value="4">(D) Winter</option>
-          </select>
-          <button type="submit" name="submit" value="submit">Enter </button> -->
-
-
-
-          <div class="col-lrg-6">
-            <button id="btn1" value="1">(A) Spring</button>
-            <button id="btn2" value="2">(B) Summer</button>
+      <div id="quiz">
+        <form>
+          <div id="seasons">
+            <h2>Question 1</h2>
+            <hr />
+            <p id="question1">Which season best suits your weather preference during vacation?</p>
+            <img src="img/spring.jpeg"><img src="img/summer.jpeg">
+            <img src="img/fall.jpeg"><img src="img/winter.jpeg">
+            <select class="form-control" id="seasons">
+              <option></option>
+              <option value="spring">(A) Spring</option>
+              <option value="summer">(B) Summer</option>
+              <option value="fall">(C) Fall</option>
+              <option value="winter">(D) Winter</option>
+            </select>
           </div>
-          <div class="col-lrg-6">
-            <button id="btn3" value="3">(C) Fall<span id="answer3"></span></button>
-            <button id="btn4" value="4">(D) Winter<span id="answer4"></span></button>
 
-
-          </div>
-          <div id="seasons" class="col-lrg-6">
-            <button id="btn3" value="fall">(C) Fall</button>
-            <button id="btn4" value="winter">(D) Winter</button>
-          </div> 
-
-
-          <!-- <h3>Question 2</h3>
-          <hr>
-          <p id="question2">Which of the following best describes your favorite vacation destination?
-            <div class="col-lrg-6" id="locations">
-              <button id="btn1" value="1">(A) City<span id="answer1"></span></button>
-              <button id="btn2" value="2">(B) Beach<span id="answer2"></span></button>
-            </div>
-            <div class="col-lrg-6" id="locations">
-              <button id="btn3" value="3">(C) Country<span id="answer3"></span></button>
-              <button id="btn4" value="4">(D) Mountains<span id="answer4"></span></button>
+          <div id="locations">
+            <h3>Question 2</h3>
+            <hr>
+            <p id="question2">Which of the following best describes your favorite vacation destination?</p>
+              <img src=""><img src="">
+              <img src=""><img src="">
+              <select class="form-control" id="locations">
+                <option></option>
+                <option value="city">(A) City</option>
+                <option value="beach">(B) Beach</option>
+                <option value="country">(C) Country</option>
+                <option value="mountains">(D) Mountains</option>
+              </select>
             </div>
 
+            <div id="activities">
             <h4>Question 3</h4>
             <hr>
-            <p id="question3">Which activity are you most likely to do during vacation?
-              <div class="col-lrg-6" id="activities">
-                <button id="btn1" value="1">(A) Shopping<span id="answer1"></span></button>
-                <button id="btn2" value="2">(B) Partying<span id="answer2"></span></button>
-              </div>
-              <div class="col-lrg-6" id="activities">
-                <button id="btn3" value="3">(C) Sight seeing<span id="answer3"></span></button>
-                <button id="btn4" value="4">(D) Relaxing<span id="answer4"></span></button>
-              </div>
+            <p id="question3">Which activity are you most likely to do during vacation?</p>
+              <img src=""><img src="">
+              <img src=""><img src="">
+              <select class="form-control" id="activities">
+                <option></option>
+                <option value="shopping">(A) Shopping</option>
+                <option value="partying">(B) Partying</option>
+                <option value="sightseeing">(C) Sight seeing</option>
+                <option value="relaxing">(D) Relaxing</option>
+              </select>
+            </div>
 
+            <div id="preference">
               <h5>Question 4</h5>
               <hr>
-              <p id="question4">Where would you most prefer to go from the following destinations?
-                <div class="col-lrg-6" id="preference">
-                  <button id="btn1" value="1">(A) South Africa<span id="answer1"></span></button>
-                  <button id="btn2" value="1">(B) Bora Bora<span id="answer2"></span></button>
-                </div>
-                <div class="col-lrg-6" id="preference">
-                  <button id="btn3" value="3">(C) Canada<span id="answer3"></span></button>
-                  <button id="btn4" value="4">(D) Germany<span id="answer4"></span></button>
-                </div>
+              <p id="question4">Where would you most prefer to go from the following destinations?</p>
+                <img src=""><img src="">
+                <img src=""><img src="">
+                <select class="form-control" id="preference">
+                  <option></option>
+                  <option value="southafrica">(A) South Africa</option>
+                  <option value="borabora">(B) Bora Bora</option>
+                  <option value="canada">(C) Canada</option>
+                  <option value="germany">(D) Germany</option>
+                </select>
+              </div>
 
+              <div id="importance">
                 <h6>Question 5</h6>
                 <hr>
-                <p id="question5">How important is cost for vacation?
-                <div class="col-lrg-6" id="importance">
-                  <button id="btn1" value="1">(A) Very important<span id="answer1"></span></button>
-                  <button id="btn2" value="2">(B) Important<span id="answer2"></span></button>
+                <p id="question5">How important is cost for vacation?</p>
+                  <img src=""><img src="">
+                  <img src=""><img src="">
+                  <select class="form-control" id="importance">
+                    <option></option>
+                    <option value="city">(A) Very important</option>
+                    <option value="beach">(B) Important</option>
+                    <option value="country">(C) Kind of important</option>
+                    <option value="mountains">(D) Not important at all</option>
+                  </select>
                 </div>
-                <div class="col-lrg-6" id="importance">
-                  <button id="btn3" value="3">(C) Kind of important<span id="answer3"></span></button>
-                  <button id="btn4" value="4">(D) Not important at all<span id="answer4"></span></button>
-                </div> -->
 
 
                 <div class="form-group">
@@ -140,7 +123,9 @@
                   <h10><span class="name"></span>, time for you to pack your bags to Erfurt, Germany!</h10><hr>
                   <img src="img/erfurt.jpg" class="erfurt">
                 </div>
-</div>
+            </div>
+
+
                 </div>
                 </h7>
                 </p>

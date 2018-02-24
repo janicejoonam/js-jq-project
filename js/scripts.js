@@ -11,11 +11,10 @@ $(document).ready(function() {
 
     var name = $("input#name").val();
     var seasons = $("select#seasons").val();
-    // var location = $("div#locations").val();
-    // var activities = $("div#activities").val();
-    // var preference = $("div#preference").val();
-    // var importance = $("div#importance").val();
-    if (seasons) {
+    var location = $("select#locations").val();
+    var activities = $("select#activities").val();
+    var preference = $("select#preference").val();
+    var importance = $("select#importance").val();
       if (seasons === "spring") {
         $("#capetown").show();
         $("#borabora").hide();
@@ -39,49 +38,24 @@ $(document).ready(function() {
       } else {
         alert("Please make sure to answer all the questions!");
         var surveyResults = $("input#name").val();
-        $(".name").append(surveyResults);
+        // $(".name").text(surveyResults);
+        $(".name").text(nameInput);
         $("#surveyresults").show();
 
       }
-      }
-      }
-      }
-      }
-    }
+    })
+      // }
+      // }
+      // }
+    })
 
 
     // $(".name").text(nameInput);
     // $("#capetown").show();
-
-    var nameInput = $("input#name").val();
-    var seasons = $("#seasons").val();
-
-    $(".name").text(nameInput);
-    // if (seasons === )
-    $("#capetown").show();
-
-
-  });
-});
-
-
-    // if (seasons === 1) {
-    //   $("#capetown").show();
-
-      // var question1 = ($("#question1").val());
-      // var question2 = ($("#question2").val());
-      // var question3 = ($("#question3").val());
-      // var question4 = ($("#question4").val());
-      // var question5 = ($("#question5").val());
-
-
-
-      // } else if (seasons === 2) {
-      //   $("#borabora").show();
-
-//     }
-//   })
-<<<<<<< HEAD
-=======
-// })
->>>>>>> 9c1602638b157f8babb23a8c77c57e2233096148
+    //
+    // var nameInput = $("input#name").val();
+    // var seasons = $("#seasons").val();
+    //
+    // $(".name").text(nameInput);
+    // // if (seasons === )
+    // $("#capetown").show();
