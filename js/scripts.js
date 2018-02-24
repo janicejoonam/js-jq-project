@@ -8,7 +8,7 @@ $(document).ready(function() {
   $("#quiz form").submit(function(event) {
     event.preventDefault();
 
-<<<<<<< HEAD
+
     var name = $("input#name").val();
     var seasons = $("select#seasons").val();
     // var location = $("div#locations").val();
@@ -52,14 +52,14 @@ $(document).ready(function() {
 
     // $(".name").text(nameInput);
     // $("#capetown").show();
-=======
+
     var nameInput = $("input#name").val();
     var seasons = $("#seasons").val();
 
     $(".name").text(nameInput);
     // if (seasons === )
     $("#capetown").show();
->>>>>>> 9c1602638b157f8babb23a8c77c57e2233096148
+
 
   });
 });

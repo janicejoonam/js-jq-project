@@ -38,11 +38,8 @@ img {
   padding: none;
 }
 
-<<<<<<< HEAD
+
 .capetown1, .borabora, .montreal, .erfurt {
-=======
-.capetown, .borabora, .montreal, .erfurt {
->>>>>>> 9c1602638b157f8babb23a8c77c57e2233096148
   width: 550px;
   height: 380px;
 }
@@ -95,10 +92,7 @@ span {
   cursor: pointer;
   background-color: #2d5986;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 9c1602638b157f8babb23a8c77c57e2233096148
 #btn1:focus, #btn2:focus, #btn3:focus, #btn4:focus {
   outline: 0;
 }*/
