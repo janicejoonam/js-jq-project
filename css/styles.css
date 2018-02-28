@@ -39,9 +39,11 @@ img {
 }
 
 
-.capetown1, .borabora, .montreal, .erfurt {
+.capetown, .borabora, .montreal, .erfurt {
   width: 550px;
   height: 380px;
+  display: block;
+  margin: 0 auto;
 }
 
 span {

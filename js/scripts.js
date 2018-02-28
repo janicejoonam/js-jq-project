@@ -13,6 +13,9 @@ $(document).ready(function() {
     var activities = $("select#activities").val();
     var preference = $("select#preference").val();
     var importance = $("select#importance").val();
+    var nameInput = $("input#name").val();
+    $(".name").append(nameInput);
+    
       if (seasons === "spring") {
         $("#capetown").show();
         $("#borabora").hide();
@@ -35,8 +38,7 @@ $(document).ready(function() {
         $("#erfurt").show();
       } else {
         alert("Please make sure to answer all the questions!");
-        var nameInput = $("input#name").val();
-        $(".name").append(nameInput);
+
         $("#surveyresults").show();
       };
 
