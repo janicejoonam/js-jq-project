@@ -14,8 +14,8 @@ $(document).ready(function() {
     var preference = $("select#preference").val();
     var importance = $("select#importance").val();
     var nameInput = $("input#name").val();
-    $(".name").append(nameInput);
-    
+    $(".name").text(nameInput);
+
       if (seasons === "spring") {
         $("#capetown").show();
         $("#borabora").hide();
