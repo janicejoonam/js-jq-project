@@ -38,6 +38,9 @@ img {
   padding: none;
 }
 
+span {
+  line-height: 180%;
+}
 
 .capetown, .borabora, .montreal, .erfurt {
   width: 550px;
@@ -46,12 +49,10 @@ img {
   margin: 0 auto;
 }
 
-span {
-  line-height: 180%;
-}
-
 .btn {
-  color: #000000;
+  -webkit-appearance: none;
+  background-color: #808080;
+  color: white;
 }
 
 .container {
@@ -62,34 +63,11 @@ span {
   padding: 20px 50px 50px 60px;
 }
 
-
 .container #question1, #question2, #question3, #question4, #question5 {
   font-size: 30px;
   color: #fff;
   text-align: center;
 }
-
-.buttons {
-  text-align: center;
-  background-image: none;
-  background-color: transparent;
-  padding: 10px;
-}
-
-.btn {
-  border-radius: 20px;
-}
-
-#btn1, #btn2, #btn3, #btn4 {
-  background-color: transparent;
-  width: 250px;
-  font-size: 20px;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 20px;
-  margin: 5px 10px;
-}
-
 
 #capetown, #borabora, #montreal, #erfurt {
   display: none;
